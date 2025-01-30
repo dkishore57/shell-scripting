@@ -1,24 +1,24 @@
 #!/bin/bash
-# AWS Resource Listing Script
-# Version: 1.0
-# Author: Your Name
-# Description: This script lists AWS resources based on the service name provided as an argument.
-# Usage: ./script.sh <region> <service_name>
-# Example: ./script.sh us-east-1 EC2
-# Metadata: Requires AWS CLI configured with necessary permissions.
+#AWS Resource Listing Script
+#version:1.0
+#author:dk
+#description:this script lists aws resources based on the service name provided as an argument.
+#usage:./script.sh <region> <service_name>
+#example:./script.sh us-east-1 EC2
+#metadata:requires aWS cli configured with necessary permissions.
 
-# Check if the correct number of arguments is provided
+#check if the correct number of arguments is provided
 if [ $# -ne 2 ]; then
     echo "Incorrect usage!"
     echo "Format: $0 <region> <service_name>"
     exit 1
 fi
 
-# Assigning input arguments to variables
+#assigning input arguments to variables
 aws_service=$2
 aws_region=$1
 
-# Case statement to check the provided AWS service and execute the corresponding AWS CLI command
+#case statement to check the provided AWS service and execute the corresponding AWS CLI command
 case $2 in 
     EC2)
         echo "LISTING $2 INSTANCES IN REGION $aws_region"

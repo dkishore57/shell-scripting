@@ -1,0 +1,126 @@
+Thu Jan 30 07:32:17 PM IST 202
+LISTING EC2 INSTANCES IN REGION us-east-1
+{
+    "Reservations": []
+}
+LISTING S3 BUCKETS IN REGION us-east-1
+2025-01-29 20:56:31 dkmybucket
+LISTING RDS INSTANCES IN REGION us-east-1
+{
+    "DBInstances": []
+}
+LISTING DYNAMODB TABLES IN REGION us-east-1
+{
+    "TableNames": []
+}
+LISTING LAMBDA FUNCTIONS IN REGION us-east-1
+{
+    "Functions": []
+}
+LISTING EBS VOLUMES IN REGION us-east-1
+{
+    "Volumes": []
+}
+LISTING ELASTIC LOAD BALANCERS IN REGION us-east-1
+{
+    "LoadBalancerDescriptions": []
+}
+LISTING IAM USERS
+{
+    "Users": [
+        {
+            "Path": "/",
+            "UserName": "admin",
+            "UserId": "AIDAVA5YKTOCJUK4BFKBH",
+            "Arn": "arn:aws:iam::345594567556:user/admin",
+            "CreateDate": "2025-01-27T15:29:07+00:00",
+            "PasswordLastUsed": "2025-01-29T14:47:06+00:00"
+        }
+    ]
+}
+LISTING VPCs IN REGION us-east-1
+{
+    "Vpcs": [
+        {
+            "OwnerId": "345594567556",
+            "InstanceTenancy": "default",
+            "CidrBlockAssociationSet": [
+                {
+                    "AssociationId": "vpc-cidr-assoc-03f0931e4ad5659ee",
+                    "CidrBlock": "172.31.0.0/16",
+                    "CidrBlockState": {
+                        "State": "associated"
+                    }
+                }
+            ],
+            "IsDefault": true,
+            "VpcId": "vpc-07163ea467218b028",
+            "State": "available",
+            "CidrBlock": "172.31.0.0/16",
+            "DhcpOptionsId": "dopt-037904490310054a3"
+        }
+    ]
+}
+Thu Jan 30 07:37:20 PM IST 2025
+LISTING EC2 INSTANCES IN REGION us-east-1
+{
+    "Reservations": []
+}
+LISTING S3 BUCKETS IN REGION us-east-1
+2025-01-29 20:56:31 dkmybucket
+LISTING RDS INSTANCES IN REGION us-east-1
+{
+    "DBInstances": []
+}
+LISTING DYNAMODB TABLES IN REGION us-east-1
+{
+    "TableNames": []
+}
+LISTING LAMBDA FUNCTIONS IN REGION us-east-1
+{
+    "Functions": []
+}
+LISTING EBS VOLUMES IN REGION us-east-1
+{
+    "Volumes": []
+}
+LISTING ELASTIC LOAD BALANCERS IN REGION us-east-1
+{
+    "LoadBalancerDescriptions": []
+}
+LISTING IAM USERS
+{
+    "Users": [
+        {
+            "Path": "/",
+            "UserName": "admin",
+            "UserId": "AIDAVA5YKTOCJUK4BFKBH",
+            "Arn": "arn:aws:iam::345594567556:user/admin",
+            "CreateDate": "2025-01-27T15:29:07+00:00",
+            "PasswordLastUsed": "2025-01-29T14:47:06+00:00"
+        }
+    ]
+}
+LISTING VPCs IN REGION us-east-1
+{
+    "Vpcs": [
+        {
+            "OwnerId": "345594567556",
+            "InstanceTenancy": "default",
+            "CidrBlockAssociationSet": [
+                {
+                    "AssociationId": "vpc-cidr-assoc-03f0931e4ad5659ee",
+                    "CidrBlock": "172.31.0.0/16",
+                    "CidrBlockState": {
+                        "State": "associated"
+                    }
+                }
+            ],
+            "IsDefault": true,
+            "VpcId": "vpc-07163ea467218b028",
+            "State": "available",
+            "CidrBlock": "172.31.0.0/16",
+            "DhcpOptionsId": "dopt-037904490310054a3"
+        }
+    ]
+}
