@@ -1,10 +1,10 @@
 #!/bin/bash
 
-# AWS Daily Report Generator
-# Version: 1.2
-# Author: D Kishore Kumar
-# Description: Generates a daily AWS report and saves it to a file.
-# Usage: ./aws-report.sh <aws_region>
+#AWS daily report generator
+#version:1.2
+#author: D Kishore Kumar
+#description:generates a daily aws report and saves it to a file.
+#usage:./aws-report.sh <aws_region>
 
 # Check if AWS CLI is installed
 if ! command -v aws &> /dev/null; then
@@ -63,7 +63,9 @@ aws elb describe-load-balancers --region $aws_region \
 echo -e "\n🔹 LISTING IAM USERS..."
 aws iam list-users --query "Users[].{Name:UserName,Created:CreateDate}" --output table 
 
-echo -e "\n✅ Report saved as: $report_file"
+echo -e "\n Report saved as: $report_file"
 
 } >> "$report_file"
+aws s3 cp ${report_file} s3://dkmybucket/
+rm $report_file
 
