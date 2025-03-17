@@ -15,6 +15,7 @@ fi
 # Validate input
 if [ -z "$1" ]; then
     echo "❌ Usage: $0 <aws_region>"
+
     exit 1
 fi
 
@@ -67,5 +68,5 @@ echo -e "\n Report saved as: $report_file"
 
 } >> "$report_file"
 aws s3 cp ${report_file} s3://dkmybucket/
-rm $report_file
+
 

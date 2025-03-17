@@ -1,0 +1,14 @@
+=====================================
+📅 AWS REPORT - 2025-02-03_10-26-34
+📍 Region: us-east-1
+=====================================
+
+🔹 LISTING EC2 INSTANCES...
+
+🔹 LISTING S3 BUCKETS...
+
+
+🔹 LISTING RDS INSTANCES...
+
+
+🔹 LISTING DYNAMODB TABLES...
